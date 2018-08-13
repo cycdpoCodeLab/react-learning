@@ -5,6 +5,7 @@ import './index.css';
 import Title from './Title';
 import ClickMe from './ClickMe';
 import NotificationsCount from './NotificationsCount';
+import List from './List';
 
 class App extends React.Component {
   render() {
@@ -13,6 +14,7 @@ class App extends React.Component {
         <Title title="React Learning"/>
         <ClickMe/>
         <NotificationsCount/>
+        <List/>
       </div>
     );
   };
