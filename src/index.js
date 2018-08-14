@@ -7,6 +7,8 @@ import ClickMe from './ClickMe';
 import NotificationsCount from './NotificationsCount';
 import List from './List';
 import Clock from './Clock';
+import Post from './Post';
+import AutoFocusInput from './AutoFocusInput';
 
 class App extends React.Component {
   constructor() {
@@ -31,10 +33,19 @@ class App extends React.Component {
     return (
       <div>
         <Title title="React Learning"/>
+        <hr/>
         <ClickMe/>
+        <hr/>
         <NotificationsCount/>
+        <hr/>
         <List/>
+        <hr/>
         <Clock/>
+        <hr/>
+        <Post/>
+        <hr/>
+        <AutoFocusInput/>
+        <hr/>
       </div>
     );
   };
