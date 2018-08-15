@@ -9,6 +9,7 @@ import List from './List';
 import Clock from './Clock';
 import Post from './Post';
 import AutoFocusInput from './AutoFocusInput';
+import BlackBorderContainer from './BlackBorderContainer';
 
 class App extends React.Component {
   constructor() {
@@ -34,7 +35,9 @@ class App extends React.Component {
       <div>
         <Title title="React Learning"/>
         <hr/>
-        <ClickMe/>
+        <BlackBorderContainer>
+          <ClickMe/>
+        </BlackBorderContainer>
         <hr/>
         <NotificationsCount/>
         <hr/>
