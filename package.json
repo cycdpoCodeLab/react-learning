@@ -23,6 +23,7 @@
   },
   "homepage": "https://github.com/cycdpoCodeLab/react-learning#readme",
   "dependencies": {
+    "prop-types": "^15.6.2",
     "react": "^16.4.2",
     "react-dom": "^16.4.2",
     "react-scripts": "1.1.4"
